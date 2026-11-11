@@ -1,0 +1,105 @@
+# ============================================
+# .ctxignore para projeto Android/Kotlin
+# ============================================
+
+# ---------- Versionamento / repositório ----------
+.git/
+.svn/
+.hg/
+
+# ---------- Builds do Gradle/Android ----------
+build/
+**/build/
+app/build/
+build/generated/
+build/intermediates/
+build/outputs/
+.gradle/
+**/.gradle/
+.kotlin/
+**/kotlin-build/
+**/kotlin-caches/
+
+# ---------- Configurações locais ----------
+local.properties
+*.properties.local
+
+# ---------- IDEs e editores ----------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.fleet/
+.settings/
+.classpath
+.project
+
+# ---------- Binários e artefatos compilados ----------
+*.class
+*.dex
+# *.jar
+*.aar
+*.apk
+*.aab
+*.ap_
+*.so
+*.dll
+*.dylib
+*.exe
+*.bin
+*.dat
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# ---------- Imagens e mídia (opcional, remova se quiser incluir ícones) ----------
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.webp
+# *.svg
+# *.mp3
+# *.mp4
+# *.wav
+# *.ttf
+# *.otf
+# *.ico
+# *.icns
+
+# ---------- Logs e temporários ----------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.cache
+*.bak
+*.old
+hs_err_pid*
+replay_pid*
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Assinatura / Keystore (segurança) ----------
+*.jks
+*.keystore
+*.p12
+*.key
+*.crt
+
+# ---------- Bibliotecas locais (se houver) ----------
+libs/
+
+# ---------- Documentos/notas locais (opcional) ----------
+notes.md
+TODO.md
+CHANGELOG.md
+
+.vscode/

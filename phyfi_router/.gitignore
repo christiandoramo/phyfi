@@ -1,0 +1,79 @@
+# ============================================
+# .gitignore para projeto Android/Kotlin
+# ============================================
+
+# ---------- Builds do Gradle/Android ----------
+build/
+**/build/
+app/build/
+build/generated/
+build/intermediates/
+build/outputs/
+
+# ---------- Gradle ----------
+.gradle/
+**/.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- Configurações locais ----------
+local.properties
+*.properties.local
+
+# ---------- IDEs ----------
+.idea/
+**/*.iml
+*.iws
+*.ipr
+.vscode/
+.fleet/
+.settings/
+.classpath
+.project
+
+# ---------- Android Studio / Emulador ----------
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+*.apk
+*.aab
+*.aar
+*.ap_
+*.dex
+*.so
+!libs/*.so
+
+# ---------- Assinatura / Keystore ----------
+*.jks
+*.keystore
+*.p12
+*.key
+
+# ---------- Logs e temporários ----------
+*.log
+*.tmp
+*.temp
+hs_err_pid*
+replay_pid*
+*.swp
+*.swo
+
+# ---------- Sistema operacional ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Kotlin ----------
+.kotlin/
+**/kotlin-build/
+**/kotlin-caches/
+
+# ---------- Outros possíveis artefatos ----------
+*.ctxt
+*.mapping
+proguard/
+**/proguard/
+
+.vscode/
+app/libs/
